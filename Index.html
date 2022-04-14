@@ -1,0 +1,487 @@
+<html>
+    <head>
+        <title>Cake Bite</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <!--Title-->
+        <div class="name">
+            <div class="logo"><img src="default.png" alt="logo" style="width:80px;height:80px;" align="left"></div>
+            
+            <h1>CAKE BITE</h1>
+            <p>Make Someone Smile Today</p>
+        </div>
+        <!--Search bar-->
+        <!--<form class="search-bar" action="#" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search">Search</i></button>
+          </form>-->
+          <div class="navbar">
+            <ul>
+                <li><a class="active" href="Index.html">Home</a></li>
+                <li><a class="active" href="flowers.html">Flowers</a></li>
+                <li><a class="active" href="cakes.html">Cakes</a></li>
+                <li><a class="active" href="combos.html">Combos</a></li>
+                <li><a class="active" href="chocolates.html">Chocolates</a></li>
+                <li><a class="active" href="occasion.html">By Occasion</a></li>
+                <li><a class="active" href="product.html">Other Products</a></li>
+              </ul>
+        </div>
+        <hr>
+        <div class="banner">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  
+                  <img src="cover.png" alt="product" style="width:1000px;height:300px;">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  
+                  <img src="cover.png" alt="product" style="width:1000px;height:300px;">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  
+                  <img src="cover.png" alt="product" style="width:1000px;height:300px;">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+         </div>   
+         <div class="index">
+             <center>
+                 <h1>CAKES</h1>
+                 <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Cake name</h1> 
+                        <p>description</p> 
+                        <p>rate</p>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+    
+             </center>
+            </div>
+            <br>
+            <br>
+            <center>
+                <H1>SPECIAL COMBOS!</H1>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img.jpg" alt="Cakes" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cake name</h1> 
+            <p>description</p> 
+            <p>rate</p>
+          </div>
+        </div>
+      </div>
+
+            </center>
+         </div>
+         <div class="footer">
+             <h1>name</h1>
+         </div>
+    </body>
+</html>

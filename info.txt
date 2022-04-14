@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: PermanentMarker
+font link: https://fonts.google.com/specimen/Permanent+Marker
+font author: Font Diner
+font author site: https://www.fontdiner.com/
+
+
+icon designer: Geoffrey Joe
+icon designer link: /geoffrey.joe
+        
+{"bg":"#FAEAF0","icon-gradient-0":"#C93A5F","icon-gradient-1":"#EFB0CA","font":"#32121B","slogan":"#46262f"}
+      
